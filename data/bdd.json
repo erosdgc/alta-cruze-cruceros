@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "destination": "América del Sur",
+        "image": "./assets/img/cards/south-america-brazil.jpg",
+        "departure": "Buenos Aires",
+        "departureDate": "12 de diciembre, 2022.",
+        "duration": "4",
+        "price": 500
+    },
+    {
+        "id": 2,
+        "destination": "Mar Mediterráneo",
+        "image": "./assets/img/cards/mediterranean-sea-croatia.jpg",
+        "departure": "Porto Fino",
+        "departureDate": "17 de diciembre, 2022.",
+        "duration": "7",
+        "price": 750
+    },
+    {
+        "id": 3,
+        "destination": "Oceanía",
+        "image": "./assets/img/cards/oceania-australia.jpg",
+        "departure": "Port Campbell",
+        "departureDate": "26 de diciembre, 2022.",
+        "duration": "8",
+        "price": 850
+    },
+    {
+        "id": 4,
+        "destination": "África Meridional",
+        "image": "./assets/img/cards/africa-south-africa.jpg",
+        "departure": "Capetown",
+        "departureDate": "5 de enero, 2023.",
+        "duration": "9",
+        "price": 950
+    },
+    {
+        "id": 5,
+        "destination": "Caribe",
+        "image": "./assets/img/cards/caribbean-royal-caribbean.jpg",
+        "departure": "Panamá",
+        "departureDate": "10 de mayo, 2023.",
+        "duration": "9",
+        "price": 1100
+    },
+    {
+        "id": 6,
+        "destination": "Mar Muerto",
+        "image": "./assets/img/cards/black-sea-sochi.jpg",
+        "departure": "Sochi",
+        "departureDate": "15 de junio, 2023.",
+        "duration": "10",
+        "price": 1200
+    },
+    {
+        "id": 7,
+        "destination": "Hawaii",
+        "image": "./assets/img/cards/central-pacific-hawaii.jpg",
+        "departure": "Vancouver",
+        "departureDate": "25 de junio, 2023.",
+        "duration": "12",
+        "price": 1600
+    },
+    {
+        "id": 8,
+        "destination": "Antillas",
+        "image": "./assets/img/cards/central-america-colombia.jpg",
+        "departure": "Cartagena",
+        "departureDate": "29 de mayo, 2023.",
+        "duration": "10",
+        "price": 1200
+    }
+]

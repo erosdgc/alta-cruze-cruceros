@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="STAR01 Recordings - Electronic Music Label">
+    <meta name="keywords" content="music, electronic, synth, synthetiser, label, records, recordings, mastering, mastering services, sound, sound engineer, progressive, house, melodic, techno, trance, organic house">
+    <link rel="icon" href="assets/img/icon2w.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alta Cruze: viajes en crucero por el mundo</title>
+</head>
+
+<body>
+
+<!----------------------------------->
+<!------------- HEADER -------------->
+<!----------------------------------->
+
+<header class="primary-header container-fluid flex justify-content-between sticky-top">
+    <div class="navbar-brand">
+        <a href="index.html">
+            <img src="assets/img/icon2.png">
+        </a>
+    </div>
+
+    <button type="button" class="mobile-nav-toggle" data-bs-toggle="collapse" data-bs-target="#primary-navigation"  aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+    </button>
+
+    <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex collapse">
+            <li class="active">
+                <a class="nav-link text-uppercase samsung-font-cr" href="">Destinos</a>
+            <li>
+                <a class="nav-link text-uppercase samsung-font-cr" href="">Ofertas</a>
+            <li>
+                <a class="nav-link text-uppercase samsung-font-cr" href="">Cruceros</a>
+            <li>
+                <a class="nav-link text-uppercase samsung-font-cr" href="">Servicios</a>
+            </li>
+        </ul>
+    </nav>
+
+<!-- ICONO DEL CARRITO DE VIAJES -->
+<div id="icon-cart-container" class="icon-cart-container">
+    <i id="icon-cart" class="fa-solid fa-ship icon-cart"></i>
+    <p class="icon-cart-quantity roboto-font"></p>
+</div>
+
+<!-- CARRITO DE VIAJES -->
+    <aside id="cart" class="cart shadow"></aside>
+</header>
+
+
+<!----------------------------------->
+<!----------- HERO + Text ----------->
+<!----------------------------------->
+
+<div class="hero container-fluid">
+    <div class="flex">
+        <img class="hero" src="assets/img/hero.jpg" alt="cruise ship anchored on the sea by some coast">
+    </div>
+</div>
+
+<button class="position-fixed bottom-20 start-50 translate-middle-x" id="bottombtn"><a href="#article1"><i class="fa-solid fa-chevron-down"></i></a></button>
+
+
+<!----------------------------------->
+<!------------- CARDS --------------->
+<!----------------------------------->
+
+<div class="col-12 p-4 cards-on-main">
+    <div class="mt-3">
+        <h1 class="roboto-font text-center">Los más solicitados</h1>
+    </div>
+    <main id="main" class="main bg-blur container-xxl"></main>
+    <div class="flex justify-content-center">
+        <button id="btn-load-more" class="btn btn-secondary btn-custom-color btn-load-more mt-4 rounded-0 px-5">VER MAS</button>
+    </div>
+</div>
+
+<!----------------------------------->
+<!------------- FOOTER -------------->
+<!----------------------------------->
+
+<footer class="nav navbar container-fluid flex flex-column">
+    
+    <div class="footer_navbar">
+        <ul class="flex justify-content-center">
+        <li><a class="nav-item footer_link samsung-font-cr" href="">About</a></li>
+        <li><a class="nav-item footer_link samsung-font-cr" href="">Register</a></li>
+        <li><a class="nav-item footer_link samsung-font-cr" href="">Contact Us</a></li>
+        <li><a class="nav-item footer_link samsung-font-cr" href="">Data Policy</a></li>
+        </ul>
+    </div>
+
+    <div class="footer_brands">
+        <ul class="nav d-flex justify-content-center">
+            <li>
+                <a href="https://www.instagram.com/">
+                    <i class="iconbtn fa-brands fa-instagram nav-item"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/">
+                    <i class="iconbtn fa-brands fa-twitter nav-item"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/">
+                    <i class="iconbtn fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="legals samsung-font-cr"><p>&reg; <script>document.write(new Date().getFullYear());</script>. Alta Cruze Viajes S.A. / Rosario, Santa Fe, Argentina.</p>
+    </div>
+
+    <div class="container button_up">
+        <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+    </div>
+
+</footer>
+
+<button class="bg-blur bottom-20 end-20" id="topbtn"><i class="fa-solid fa-arrow-up"></i></i></button>
+
+
+<!----------------------------------->
+<!------------ Scripts -------------->
+<!----------------------------------->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/97f14c85b5.js" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/nav.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
